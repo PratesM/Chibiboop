@@ -1,0 +1,30 @@
+{
+  "name": "chibiboop",
+  "version": "1.0.0",
+  "description": "A generalized Discord bot written in TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PratesM/Chibiboop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PratesM/Chibiboop/issues"
+  },
+  "homepage": "https://github.com/PratesM/Chibiboop#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "discord.js": "^14.1.2"
+  }
+}
